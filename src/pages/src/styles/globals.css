@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme variables (default) */
+:root {
+  --color-primary: #e63946;   /* crimson rose */
+  --color-secondary: #457b9d; /* cool teal */
+}
