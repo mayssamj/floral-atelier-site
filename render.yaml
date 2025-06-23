@@ -5,9 +5,9 @@ services:
     plan: free
     region: oregon
     buildCommand: |
-      pnpm install
-      pnpm build
-    startCommand: pnpm start
+          yarn install --frozen-lockfile
+    yarn build
+    startCommand: yarn start
     envVars:
       - key: NODE_VERSION
         value: "18"
